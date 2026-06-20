@@ -16,6 +16,7 @@ func main() {
 	sum(1, 2)
 	sum(1, 2, 3)
 	sum(1, 2, 3, 4, 5)
+	sum(1, 3, 5)
 
 	nums := []int{1, 2, 3, 4}
 	sum(nums...)
